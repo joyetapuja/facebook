@@ -1,0 +1,82 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.header{
+background:#3e569a ;
+overflow: hidden;
+padding: 10px;
+
+}
+.container{
+width: 65%;
+margin: auto;
+
+}
+.logo-area {
+
+    width: 30%;
+    float:left;
+}
+.logo-area img{
+width: 160px;
+margin-top: 20px;
+
+}
+
+
+
+
+.login-area {
+
+    width: 70%;
+    float: left;
+    color: white;
+}
+.login-area form {
+
+    float: right;
+}
+.login-area label{
+    display: block;
+}
+.login-area input{
+
+    display: block;
+}
+.login-area .email,
+.login-area .pw
+{
+float: left;
+margin-right: 15px;
+}
+.login-area label{
+font-size: small;
+margin-bottom: 4px;
+
+}
+.login-area .login{
+    margin-right: 0;
+}
+.login-area .input[type="text"],
+.login-area .input[type="pw"]{
+
+border: 1px solid #000;
+font-size: 14px;
+font-weight:300 ;
+padding:2px 5px;
+
+
+}
+.login-area .pw a{
+text-decoration: none;
+font-size: 12px;
+color:white;
+}
+.login-area .pw a:hover {
+
+    text-decoration: underline;
+    
+}
+
